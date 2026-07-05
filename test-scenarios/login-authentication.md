@@ -1,8 +1,5 @@
 # TEST SCENARIO: Login Authentication
 
-**Module:** Web Application Authentication
-**Status:** Ready for Testing
-
 ## 1. Scenario Objective
 
 Verify the functionality of the web application's login process. The system must ensure secure user authentication, handle successful logins correctly, and respond appropriately to invalid inputs or security threats.
