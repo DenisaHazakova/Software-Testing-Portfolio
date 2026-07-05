@@ -14,24 +14,24 @@ As a bank account holder, I want to be able to transfer funds to another account
 
 ## 3. POSITIVE SCENARIOS
 
-| ID    | Test Scenario                                                                                                 | Priority |
-| :---- | :------------------------------------------------------------------------------------------------------------ | :------- |
-| TC-01 | Verify that account holder can transfer amount of 10.00 EUR to another account when his balance is 20.00 EUR. | Medium   |
-| TC-02 | Verify that account holder can transfer 4,000.00 EUR to another account when his balance is 4,001.00 EUR.     | Medium   |
-| TC-03 | Verify that account holder can check whether they have active account after log in.                           | High     |
+| ID    | Test Scenario                                                                           | Priority |
+| :---- | :-------------------------------------------------------------------------------------- | :------- |
+| TC-01 | Verify that a transfer of 10.00 EUR is successfull when the balance is 20.00 EUR.       | Medium   |
+| TC-02 | Verify that a transfer of 4,000.00 EUR is successfull when the balance is 4,001.00 EUR. | Medium   |
+| TC-03 | Verify that a transfer of 1,00 EUR (minimum amount) is succesfull.                      | Medium   |
 
 ## 4. NEGATIVE SCENARIOS
 
-| ID    | Test Scenario                                                                                                                                                                    | Priority |
-| :---- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :------- |
-| TC-04 | Verify that account holder who has blocked account is not allowed to proceed any transfer.                                                                                       | High     |
-| TC-05 | Verify that account holder is notified by error message when trying to proceed transfer of 5,001.00 EUR.                                                                         | High     |
-| TC-06 | Verify that account holder is notified by error message "Your account balance is lower than the transfer" when attempts of transfer 100.00 EUR with account balance of 1.00 EUR. |
+| ID    | Test Scenario                                                                                           | Priority |
+| :---- | :------------------------------------------------------------------------------------------------------ | :------- |
+| TC-04 | Verify that a transfer cannot be initiated from a block account.                                        | High     |
+| TC-05 | Verify that an error message is displayed when attepmting to transfer of 5,001.00 EUR.                  | High     |
+| TC-06 | Verify that an error message is displayed when attempting to transfer amount exceeding account balance. | High     |
 
 ## 5. EDGE CASE SCENARIOS
 
-| ID    | Test Scenario                                                                                                                                                                                              | Priority |
-| :---- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :------- |
-| TC-07 | Verify that account holder can proceed a transfer succesfully of amount 1.01 EUR.                                                                                                                          |
-| TC-08 | Verify that account holder is notified by error message "You exceeded maximum daily transfer of 5,000 EUR" after attempts to create one transfer of 3,000 EUR at 8:00 UTC and then 3,000 EUR at 18:00 UTC. |
-| TC-09 | Verify that account holder is notified by error message "Your account balance needs to be higher than your transfer amount" when attempts transfer of 10.00 EUR and their account balance is 10.00 EUR.    |
+| ID    | Test Scenario                                                                                | Priority |
+| :---- | :------------------------------------------------------------------------------------------- | :------- |
+| TC-07 | Verify that a transfer of 1.01 EUR is not succesfull EUR.                                    | High     |
+| TC-08 | Verify that a second transfer is blocked if cumulative daily transfers exceeds 5,000 EUR.    | High     |
+| TC-09 | Verify that a transfer of 10.00 EUR is succesfull when account balance is exactly 10.00 EUR. | High     |
