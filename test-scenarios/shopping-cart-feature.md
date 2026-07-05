@@ -10,6 +10,8 @@ As a registered e-shop customer, I want to be able to add items to my shopping c
 - If the cart is empty, the "Proceed to Checkout" button is inactive (disabled).
 - The cart price must automatically update after a quantity change.
 
+---
+
 ## 3. POSITIVE SCENARIOS
 
 | ID    | Test Scenario                                                                         | Priority |
