@@ -1,10 +1,10 @@
 # TEST SCENARIO: Login Authentication
 
-## 1. Scenario Objective
+## 1. DESCRIPTION
 
 Verify the functionality of the web application's login process. The system must ensure secure user authentication, handle successful logins correctly, and respond appropriately to invalid inputs or security threats.
 
-## 2. Business Rules
+## 2. BUSINESS RULES
 
 - **Account Lockout:** The account is locked after 5 consecutive failed login attempts.
 - **Session Expiry:** The session expires after 30 minutes of inactivity.
@@ -13,7 +13,7 @@ Verify the functionality of the web application's login process. The system must
 
 ---
 
-## 3. Positive Scenarios
+## 3. POSITIVE SCENARIOS
 
 | ID    | Test Scenario                                                                              | Priority |
 | :---- | :----------------------------------------------------------------------------------------- | :------- |
@@ -26,7 +26,7 @@ Verify the functionality of the web application's login process. The system must
 | TC-07 | Verify that a user can mask the password when "hide password" is toggled                   | Low      |
 | TC-08 | Verify that a user can successfully log in with plus-addressing (e.g., user+test@mail.com) | Low      |
 
-## 4. Negative Scenarios
+## 4. NEGATIVE SCENARIOS
 
 | ID    | Test Scenario                                                                         | Priority |
 | :---- | :------------------------------------------------------------------------------------ | :------- |
@@ -40,7 +40,7 @@ Verify the functionality of the web application's login process. The system must
 | TC-16 | Verify that a user cannot access protected pages after a 30-minute session expiry     | High     |
 | TC-17 | Verify that a user cannot log in when both fields are empty                           | Medium   |
 
-## 5. Edge Case Scenarios
+## 5. EDGE CASE SCENARIOS
 
 | ID    | Test Scenario                                                                     | Priority |
 | :---- | :-------------------------------------------------------------------------------- | :------- |
