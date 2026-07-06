@@ -1,15 +1,12 @@
 ## DEFECT REPORT TEMPLATE
 
-| Field                                                               | Description                    | Example                                      |
-| :------------------------------------------------------------------ | :----------------------------- | :------------------------------------------- |
-| Title                                                               | Short, clear summary           | "Submit button unresposive on login page"    |
-| Priority                                                            | How urgently must it be fixed? | High / Medium / Low                          |
-| Environment                                                         | Where was it found?            | Chrome 124, Windows 11, Staging server       |
-| Expected Result                                                     | What should happen             | Formit submits successfully                  |
-| Actual Result                                                       | What actually happends         | Nothing happens, no error shown              |
-| Attachments                                                         | Screenshots, logs, videos      |                                              |
-| Status                                                              | Current state                  | New / Open / Fixed / Closed                  |
-| Steps to reproduce                                                  | Exact steps to trigger the bug | \* Navigate to https://app.example.com/login |
-| \* Enter valid credentials (username: testuser, password: Test@123) |
-| \* Click the Submit button                                          |
-| \* Observe the page behaviour                                       |
+| Field                  | Description                    | Example                                                                                                                                                                             |
+| :--------------------- | :----------------------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Title**              | Short, clear summary           | "Submit button unresponsive on login page"                                                                                                                                          |
+| **Priority**           | How urgently must it be fixed? | High / Medium / Low                                                                                                                                                                 |
+| **Environment**        | Where was it found?            | Chrome 124, Windows 11, Staging server                                                                                                                                              |
+| **Expected Result**    | What should happen             | Form submits successfully                                                                                                                                                           |
+| **Actual Result**      | What actually happens          | Nothing happens, no error shown                                                                                                                                                     |
+| **Attachments**        | Screenshots, logs, videos      | [Link to screenshot]                                                                                                                                                                |
+| **Status**             | Current state                  | New / Open / Fixed / Closed                                                                                                                                                         |
+| **Steps to Reproduce** | Exact steps to trigger the bug | 1. Navigate to `https://app.example.com/login`<br>2. Enter valid credentials (username: testuser, password: Test@123)<br>3. Click the Submit button<br>4. Observe the page behavior |
