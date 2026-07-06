@@ -42,6 +42,7 @@ Generate a comprehensive set of test scenarios for the Login / Authentication fe
 - include at least 3 scenarios per type (positive, negative, edge case)
 
 **Format**
+
 Return the scenarios as numbered list, grouped under three headings: positive scenarios, negative scenarios, edge case scenarios
 Example:
 
