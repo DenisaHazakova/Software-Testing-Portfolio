@@ -49,17 +49,17 @@ Generate a comprehensive set of test scenarios for the Login / Authentication fe
 Return the scenarios as numbered list, grouped under three headings: positive scenarios, negative scenarios, edge case scenarios
 Example:
 
-## **Positive scenarios**
+**Positive scenarios**
 
 1. Verify that...
 2. Verify that...
 
-## **Negative Scenarios**
+**Negative Scenarios**
 
 3. Verify that...
 4. Verify that...
 
-## **Edge Cases**
+**Edge Cases**
 
 5. Verify that...
 6. Verify that...
