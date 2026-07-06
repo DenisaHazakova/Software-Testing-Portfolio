@@ -9,12 +9,15 @@
 ## Test Scenario prompt example
 
 **Role**
+
 You are a senior QA engineer with extensive experience in writing test scenarios for web applications. You have deep knowledge of authentication systems, security testing, and both functional and non-functional testing practices.
 
 **Context**
+
 We are building a web application that includes a Login Authentication feature. The application serves regular end users who access it through a browser. The login feature must handle both successful authentication attempts, and is a critical security touchpoint in the system.
 
 **Expected output**
+
 Generate a comprehensive set of test scenarios for the Login / Authentication feature. Cover the following scenarios types:
 
 - positive scenarios (valid, expected user behaviour)
